@@ -1,2 +1,8 @@
 # browser-fingerprinting
-A browser fingerprinting library to collect device, network, and behavioral attributes for personalization.
+
+A powerful JavaScript-based browser fingerprinting utility that captures hardware, software, and behavioral attributes. Designed for personalization and fraud detection use cases.
+
+## Installation
+
+```bash
+npm install @sl_1503/browser-fingerprinting
