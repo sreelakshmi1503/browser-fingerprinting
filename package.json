@@ -1,0 +1,19 @@
+{
+  "name": "@sl_1503/browser-fingerprinting",
+  "version": "1.0.4",
+  "description": "A browser-based fingerprint collector CLI that gathers hardware, software, and network information.",
+  "main": "index.js",
+  "bin": {
+    "browser-fingerprinting": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sreelakshmi",
+  "license": "MIT",
+  "dependencies": {
+    "@sl_1503/browser-fingerprinting": "^1.0.3",
+    "express": "^4.18.2",
+    "open": "^9.1.0"
+  }
+}
