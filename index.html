@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Browser Fingerprint</title>
+  </head>
+  <body>
+    <h2 style="text-align:left; margin-top: 2rem; font-family:'Times New Roman', Times, serif ;">
+      Open the browser console to see your fingerprint data.
+    </h2>
+
+    <script type="module">
+      import { getFingerprint } from './dist/index.js';
+      getFingerprint().then(console.log);
+    </script>
+  </body>
+</html>

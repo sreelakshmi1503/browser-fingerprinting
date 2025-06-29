@@ -2,6 +2,7 @@
   "name": "@sl_1503/browser-fingerprinting",
   "version": "1.0.4",
   "description": "A browser-based fingerprinting utility to collect and send device/browser info.",
+<<<<<<< HEAD
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -18,12 +19,39 @@
   ],
   "author": "Sreelakshmi",
   "license": "MIT",
+=======
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fingerprint",
+    "browser",
+    "tracking",
+    "device"
+  ],
+  "author": "Sreelakshmi",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.19"
+  },
+>>>>>>> aad2948 (Initial commit for v1.0.4)
   "repository": {
     "type": "git",
     "url": "https://github.com/sreelakshmi1503/browser-fingerprinting.git"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/sreelakshmi1503/browser-fingerprinting#readme",
   "bugs": {
     "url": "https://github.com/sreelakshmi1503/browser-fingerprinting/issues"
   }
+=======
+  "bugs": {
+    "url": "https://github.com/sreelakshmi1503/browser-fingerprinting/issues"
+  },
+  "homepage": "https://github.com/sreelakshmi1503/browser-fingerprinting#readme"
+>>>>>>> aad2948 (Initial commit for v1.0.4)
 }
