@@ -59,12 +59,12 @@ The function `getFingerprint()` returns a Promise that resolves to:
 
 ```js
 {
-  fingerprint: { /* full detailed fingerprint data */ },
-  shortHash: "fp_b3c4d5e6"  // 12-character unique ID
+  fingerprint: { /* full data used for fingerprintin */ },
+  shortHash: "fp_b3c4d5e6"  // unique fingerprint ID
 }
 ```
 
-* `fingerprint`: Full detailed fingerprint object with device, browser, and network traits.
+* `fingerprint`: Full detailed fingerprint object with device, browser, and network attributes.
 * `shortHash`: Compact unique ID for use in cookies, headers, logs, etc.
 
 ---
@@ -111,8 +111,3 @@ useEffect(() => {
 
 ---
 
-## 🔗 GitHub
-
-[View the source code on GitHub](https://github.com/sreelakshmi1503/browser-fingerprinting)
-
----
