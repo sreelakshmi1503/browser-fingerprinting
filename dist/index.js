@@ -198,7 +198,7 @@ async function E() {
       serviceWorker: "serviceWorker" in navigator,
       webRTC: typeof RTCPeerConnection < "u"
     }
-  }, u = l(a).slice(0, 12);
+  }, u = l(a).slice(0, 13);
   return { fingerprint: a, shortHash: u };
 }
 export {
